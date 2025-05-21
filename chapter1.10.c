@@ -13,6 +13,8 @@ void copy(void);
 int main()
 {
     int len, max;
+    // Actually here, the 'extern' can be omitted as long as the definition of variables
+    // is before its usage, which is true here.
     extern char line[];
     extern char longest[];
 
